@@ -5,7 +5,8 @@ deploy:
   api-key:
     secure: $HEROKU_API_KEY
   app: impurity-online-gateway
-
+before_install:
+  - chmod +x gradlew
 addons:
   sonarcloud:
     organization: "tmk2003-github"
