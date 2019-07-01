@@ -53,3 +53,10 @@ test {
 jacoco {
 	toolVersion = "0.8.4"
 }
+
+sonarqube {
+	properties {
+		property "sonar.projectName", "impurity-online-gateway"
+		property "sonar.projectKey", "tmk2003_impurity-online-gateway"
+	}
+}
