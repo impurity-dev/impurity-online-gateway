@@ -11,4 +11,4 @@ addons:
     token:
       secure: "$SONAR_TOKEN"
 script:
-  - gradle sonarqube
+  - ./gradlew sonarqube
