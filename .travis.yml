@@ -14,4 +14,4 @@ before_install:
   - chmod +x gradlew
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - gradle sonarqube
+  - ./gradlew sonarqube
